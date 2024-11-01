@@ -4,7 +4,6 @@ from tkinter.ttk import *
 import pandas as pd
 import numpy as np
 from plot import plot
-#C:/Users/Maksim.Gorinov/Downloads/123.xlsx  
 
 class app():
     def main():
@@ -34,7 +33,7 @@ class app():
         lbl = Label(text = 'Введите путь к файлу').place(x=5, y=400)
         path = Entry(width = 45)
         path.place(x=5,y=450)
-        btn_add = Button(text = 'Запомнитьть путь', command = app.path_remember).place(x = 5, y = 500)
+        btn_add = Button(text = 'Запомнить путь', command = app.path_remember).place(x = 5, y = 500)
     
     def Open():
         try:
